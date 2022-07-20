@@ -316,6 +316,7 @@ from agate.table.join import join
 from agate.table.limit import limit
 from agate.table.line_chart import line_chart
 from agate.table.merge import merge
+from agate.table.multi_compute import multi_compute
 from agate.table.normalize import normalize
 from agate.table.order_by import order_by
 from agate.table.pivot import pivot
@@ -349,6 +350,7 @@ Table.join = join
 Table.limit = limit
 Table.line_chart = line_chart
 Table.merge = merge
+Table.multi_compute = multi_compute
 Table.normalize = normalize
 Table.order_by = order_by
 Table.pivot = pivot
