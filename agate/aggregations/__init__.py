@@ -19,6 +19,7 @@ from agate.aggregations.all import All
 from agate.aggregations.any import Any
 from agate.aggregations.base import Aggregation
 from agate.aggregations.count import Count
+from agate.aggregations.count_distinct import CountDistinct
 from agate.aggregations.deciles import Deciles
 from agate.aggregations.first import First
 from agate.aggregations.has_nulls import HasNulls
@@ -38,3 +39,4 @@ from agate.aggregations.stdev import PopulationStDev, StDev
 from agate.aggregations.sum import Sum
 from agate.aggregations.summary import Summary
 from agate.aggregations.variance import PopulationVariance, Variance
+
